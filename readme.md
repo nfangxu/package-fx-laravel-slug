@@ -1,5 +1,9 @@
 ## Laravel Slug
 
+### depends
+
+- [fx/translaion](https://github.com/nfangxu/package-fx-translaion)
+
 ### Installation
 
 - `composer require fx/laravel-slug`
