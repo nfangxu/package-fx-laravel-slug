@@ -1,0 +1,34 @@
+{
+	"name": "fx/laravel-slug",
+	"description": "get slug in laravel",
+	"keywords": ["laravel", "slug", "php"],
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "nfangxu",
+			"email": "nfangxu@gmail.com"
+		}
+	],
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Fx\\Slug\\Providers\\FxSlugServiceProvider"
+			],
+			"aliases": {}
+		}
+	},
+	"autoload": {
+		"files": [],
+		"psr-4": {
+			"Fx\\Slug\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": []
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"fx/translation": "^1.0"
+	}
+}
