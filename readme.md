@@ -2,7 +2,7 @@
 
 ### depends
 
-- [fx/translaion](https://github.com/nfangxu/package-fx-translaion)
+- [fx/translation](https://github.com/nfangxu/package-fx-translation)
 
 ### Installation
 
