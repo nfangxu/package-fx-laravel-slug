@@ -4,6 +4,7 @@ namespace Fx\Slug\Services;
 
 use Fx\Slug\Contacts\FxSlug;
 use Fx\Translation\Contacts\Translate;
+use Illuminate\Support\Str;
 
 class FxSlugService implements FxSlug
 {
@@ -18,6 +19,6 @@ class FxSlugService implements FxSlug
 	{
 		$title = $this->translate->trans($title, 'en');
 
-		return str_slug($title, $separator);
+		return Str::slug($title, $separator);
 	}
 }
